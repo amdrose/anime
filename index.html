@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动漫之家</title>
+    <link type="text/css" rel="styleSheet"  href="css/init.css" />
+    <link type="text/css" rel="styleSheet"  href="css/index.css" />
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"> </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="main">
+<!--    头部-->
+    <div class="index-head">
+        <div class="index-head-logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="index-head-search">
+            <div class="search-frame">
+                <input type="text" placeholder="请输入内容进行搜索">
+                <span class="search-icon">搜索</span>
+            </div>
+        </div>
+        <div class="index-head-user">
+<!--            <div class="user-info user-active">-->
+<!--                <img src="images/via.jpg" alt="">-->
+<!--                <div class="user-info-content">-->
+<!--                    <span>Gardenia</span>-->
+<!--                </div>-->
+<!--            </div>-->
+            <div class="user-info user-not">
+                <img src="images/akari.jpg" alt="">
+                <div class="user-info-content">
+                    <a href="#">登录</a>&nbsp;<a href="#">注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="index-content">
+        <!--    轮播图-->
+        <div class="index-slideshow">
+            <section class="sec2">
+                <div class="main">
+                    <div class="w-newsList w-newsList2 " id="newsList2">
+                        <div class="swiper-wrapper clearfix">
+                            <div class="swiper-slide">
+                                <div class="news-item"><a href="#" class="clearfix">
+                                    <div class="img"><img src="images/img1.png"/></div>
+                                    <div class="news-text">
+                                        <div class="news-h">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题1</div>
+                                        <div class="date">发布时间：2020-06-30</div>
+                                        <div class="news-sum">文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介介文字简介文字简介文字简介文字简介</div>
+                                        <div class="more"><span class="btn-inner">查看更多</span><div class="bgsqr1"></div><div class="bgsqr2"></div><div class="bgsqr3"></div><div class="bgsqr4"></div></div>
+                                    </div>
+                                </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="news-item"><a href="#" class="clearfix">
+                                    <div class="img"><img src="images/img2.png"/></div>
+                                    <div class="news-text">
+                                        <div class="news-h">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题2</div>
+                                        <div class="date">发布时间：2020-06-30</div>
+                                        <div class="news-sum">文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介介文字简介文字简介文字简介文字简介</div>
+                                        <div class="more"><span class="btn-inner">查看更多</span><div class="bgsqr1"></div><div class="bgsqr2"></div><div class="bgsqr3"></div><div class="bgsqr4"></div></div>
+                                    </div>
+                                </a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="news-item"><a href="#" class="clearfix">
+                                    <div class="img"><img src="images/img3.png"/></div>
+                                    <div class="news-text">
+                                        <div class="news-h">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题3</div>
+                                        <div class="date">发布时间：2020-06-30</div>
+                                        <div class="news-sum">文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介介文字简介文字简介文字简介文字简介</div>
+                                        <div class="more"><span class="btn-inner">查看更多</span><div class="bgsqr1"></div><div class="bgsqr2"></div><div class="bgsqr3"></div><div class="bgsqr4"></div></div>
+                                    </div>
+                                </a></div>
+                            </div>
+                        </div>
+                        <div class="adSN_page"></div>
+                    </div>
+                    <script type="text/javascript">
+                        $(function(){
+                            var swiper = new Swiper('#newsList2', {
+                                direction : 'horizontal',
+                                loop: true,
+                                autoplay : {
+                                    delay:5000,//滚动速度
+                                    disableOnInteraction: false,
+                                },
+                                pagination: {
+                                    el: '.adSN_page',
+                                    clickable :true,
+                                }
+                            });
+                        });
+                    </script>
+                    <!-- 基于swiper的新闻滚动组合2 end -->
+                </div>
+            </section>
+        </div>
+        <div class="index-center">
+            <div class="index-center-left">
+                <!--            推荐-->
+                <div class="index-center-recommend">
+                    本周推荐部分
+                </div>
+                <!--            最近更新-->
+                <div class="index-center-update">
+                    最近更新
+                </div>
+            </div>
+            <!--        热榜-->
+            <div class="index-center-right">
+                中间推荐右侧部分
+            </div>
+        </div>
+        <!--    所有帖子部分-->
+        <div class="index-post">
+            所有帖子部分
+        </div>
+        <!--    发送帖子部分-->
+        <div class="index-send">
+            发送帖子部分
+        </div>
+        <!--    首页底部-->
+        <div class="index-bottom">
+            首页底部
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

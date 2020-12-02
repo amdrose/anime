@@ -1,0 +1,105 @@
+
+.index-head{
+    display: flex;
+    text-align: center;
+    height: 100px;
+    background: url("../images/logo_bg.jpg") no-repeat;
+}
+.index-head-logo{
+    width: 20%;
+    height: 100%;
+    text-align: right;
+    display: table-cell;
+    line-height: 100px;
+}
+.index-head-logo img{
+    width: 70%;
+    vertical-align: middle;
+}
+.index-head-search{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+.search-frame{
+    margin: auto;
+    width: 80%;
+    line-height: 100px;
+}
+.search-frame input{
+    height: 30px;
+    width: 50%;
+    padding-left: 10px;
+}
+.search-icon{
+    padding: 6px 15px 7px 15px;
+    position: relative;
+    height: 30px;
+    right:6px;
+    top: 2px;
+    background-color: #ada4a8;
+}
+.index-head-user{
+    width: 20%;
+    height: 100%;
+    line-height: 100px;
+    text-align: center;
+}
+.user-info-content{
+    padding-left: 10px;
+    display: inline-block;
+}
+.user-info img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.user-info-content a{
+    color: beige;
+}
+.index-content{
+    padding: 10px 40px;
+}
+.index-slideshow{
+    padding: 20px 20px;
+    border: 1px solid #aaaaaa;
+    /*height: 360px;*/
+}
+.index-center{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: wheat;
+}
+.index-center-left{
+    width: 70%;
+    height: 100%;
+    background-color:  honeydew;
+}
+.index-center-recommend{
+    width: 100%;
+    height: 45%;
+    background-color: mediumblue;
+}
+.index-center-update{
+    width: 100%;
+    height: 55%;
+    background-color: blueviolet;
+}
+.index-center-right{
+    width: 30%;
+    height: 100%;
+    background-color: darkorange;
+}
+.index-post{
+    height: 720px;
+    background-color: cadetblue;
+}
+.index-send{
+    height: 500px;
+    background-color: darkorange;
+}
+.index-bottom{
+    height: 50px;
+    background-color: aquamarine;
+}
