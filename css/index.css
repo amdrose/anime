@@ -62,34 +62,120 @@
 }
 .index-slideshow{
     padding: 20px 20px;
-    border: 1px solid #aaaaaa;
+    /*border: 1px solid #aaaaaa;*/
     /*height: 360px;*/
 }
 .index-center{
     display: flex;
-    width: 100%;
-    height: 700px;
-    background-color: wheat;
+    height: 750px;
+    padding: 10px 20px;
 }
 .index-center-left{
     width: 70%;
     height: 100%;
-    background-color:  honeydew;
 }
 .index-center-recommend{
     width: 100%;
     height: 45%;
-    background-color: mediumblue;
+}
+.recommend-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.recommend-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.recommend-list-box{
+    position: relative;
+}
+.recommend-list-box img{
+    width: 100%;
+    height: 200px;
+}
+.recommend-box-brief{
+    padding-top: 5px;
+    font-size: 14px;
+    height: 27px;
+}
+.recommend-box-brief a{
+    color: rgb(184,200,226);
+}
+.recommend-box-brief a:hover {
+    color: rgb(184,200,226);
+    text-decoration: underline;
+}
+.recommend-box-author{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.recommend-box-author a{
+    color: rgb(135,135,135);
 }
 .index-center-update{
     width: 100%;
-    height: 55%;
-    background-color: blueviolet;
+}
+.update-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.update-list{
+    height: 362px;
+    display: flex;
+}
+.update-list-swiper{
+    width: 55%;
+    height: 100%;
+}
+.swiper-slide{
+}
+.swiper-container .swiper-wrapper .swiper-slide img{
+    width: 100%;
+    height: 362px;
+}
+.update-list-content{
+    width: 45%;
+    height: 100%;
+}
+.update-list-a li{
+    padding: 5px 5px 7px 10px;
+}
+.update-list-a li a{
+    color: #ada4a8;
 }
 .index-center-right{
     width: 30%;
-    height: 100%;
-    background-color: darkorange;
+    height: 95%;
+    padding: 20px 20px;
+    /*background-color: darkorange;*/
+}
+.index-hot-title{
+    color: darkorange;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    background-color: #c9c9c9;
+}
+.index-hot-list-table{
+    margin-top: 10px;
+    width: 100%;
+}
+.index-hot-list-tr td{
+    padding: 6px 2px;
+}
+.hot-number{
+    color: #9195A3;
+    padding: 2px 4px;
+}
+.index-hot-list-tr td a{
+    padding-left: 6px;
+}
+.index-hot-list-tr td a:hover{
+    color: #315EFB;
+    text-decoration: underline;
+    padding-left: 6px;
 }
 .index-post{
     height: 720px;
